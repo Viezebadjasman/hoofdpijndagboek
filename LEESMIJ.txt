@@ -1,0 +1,23 @@
+HOOFDPIJNDAGBOEK – installeren
+
+De app moet één keer online gezet worden. Daarna installeert iedereen hem
+op zijn telefoon en werkt hij ook zonder internet.
+
+1. ONLINE ZETTEN (gratis, 2 minuten, geen programmeerkennis nodig)
+   - Pak deze zip uit op je computer.
+   - Ga naar https://app.netlify.com/drop en maak een gratis account.
+   - Sleep de uitgepakte map "hoofdpijn-app" naar de pagina.
+   - Je krijgt een adres, bijvoorbeeld https://iets-willekeurigs.netlify.app
+     Dit adres kun je delen met iedereen die de app wil gebruiken.
+
+2. INSTALLEREN OP DE TELEFOON
+   iPhone:  open het adres in Safari > deelknop > "Zet op beginscherm".
+   Android: open het adres in Chrome > menu (⋮) > "App installeren".
+
+3. DAGELIJKSE MELDING
+   Kies in de app een tijdstip en tik op "Zet in mijn agenda".
+   Voeg de afspraak toe aan je agenda. Je krijgt dan elke dag een melding.
+
+GEGEVENS
+   Alles blijft op de telefoon zelf. Niemand anders kan het zien, ook de
+   maker van de app niet. Maak af en toe een back-up via "Back-up maken".
