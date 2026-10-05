@@ -41,17 +41,25 @@ Stuur dit adres naar iedereen die de app wil gebruiken. Een account is niet nodi
    Helemaal vanzelf niet: een telefoon laat geen enkele app zichzelf openen.
    Wel kan het zo:
    - Eén tik op de melding: zet het adres van de app bij URL in je herinnering.
-   - iPhone, via Opdrachten: Automatisering > + > Tijdstip > kies je tijd,
-     Dagelijks, "Voer direct uit". Voeg de actie "Open URL's" toe met het
-     adres van de app. Is je iPhone ontgrendeld, dan opent de app vanzelf.
-     Anders krijg je een melding om op te tikken.
+   - iPhone, via Opdrachten: Automatisering > + > Tijdstip. Tik op de tijd
+     bovenaan om hem in te stellen, kies Dagelijks en "Voer direct uit",
+     tik op Volgende. Kies "Nieuwe lege opdracht", voeg de actie
+     "Open URL's" toe en vul het adres van de app in.
+     Is je iPhone ontgrendeld, dan opent de app vanzelf. Anders krijg je
+     een melding om op te tikken.
 
-   LET OP (iPhone): een link opent de app in Safari, niet in de app op je
-   beginscherm. Die twee hebben elk hun EIGEN opslag. Wat je in Safari
-   invult, zie je niet in de app op je beginscherm, en andersom.
+   LET OP (iPhone): de actie "Open app" werkt hier niet, want de iPhone
+   toont web-apps niet in die lijst. Een link opent de app in Safari, niet
+   in de app op je beginscherm. Die twee hebben elk hun EIGEN opslag. Wat je
+   in Safari invult, zie je niet in de app op je beginscherm, en andersom.
    Kies daarom één manier en blijf die gebruiken:
-   - altijd via de link (dan heb je het icoon op je beginscherm niet nodig), of
+   - altijd via de link, melding of Opdrachten (dan heb je het icoon op je
+     beginscherm niet nodig), of
    - altijd via het icoon (laat dan de URL uit je herinnering weg).
+
+   Al dagen ingevuld in de app op je beginscherm en wil je overstappen?
+   Maak daar een back-up ("Back-up maken"), open de app in Safari en kies
+   "Back-up terugzetten".
 
 5. GEGEVENS
    Alles blijft op de telefoon zelf. Niemand anders kan het zien, ook de
