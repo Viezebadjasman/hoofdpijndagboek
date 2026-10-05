@@ -7,3 +7,5 @@ Alles blijft op je eigen telefoon; er gaat niets naar internet.
 
 Installeren: open de link op je telefoon en kies "Zet op beginscherm" (iPhone, Safari)
 of "App installeren" (Android, Chrome).
+
+Meer uitleg (meldingen, automatisch openen, back-up): zie [LEESMIJ.txt](LEESMIJ.txt).

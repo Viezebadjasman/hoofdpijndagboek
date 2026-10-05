@@ -155,7 +155,7 @@ details ol,details ul{margin:0;padding:0 16px 14px 34px;display:flex;flex-direct
           <li>Typ "Hoofdpijndagboek invullen".</li>
           <li>Tik op <b>ⓘ</b> en zet <b>Datum</b> en <b>Tijd</b> aan. Kies je tijdstip.</li>
           <li>Kies bij <b>Herhaal</b>: <b>Dagelijks</b>.</li>
-          <li>Plak bij <b>URL</b> het adres van deze app. <button class="link" type="button" data-copy>Kopieer adres</button></li>
+          <li>Plak eventueel bij <b>URL</b> het adres van deze app. <button class="link" type="button" data-copy>Kopieer adres</button> Lees eerst "Kan de app vanzelf openen?" hieronder.</li>
           <li>Tik op <b>Gereed</b>.</li>
         </ol>
       </details>
@@ -185,10 +185,22 @@ details ol,details ul{margin:0;padding:0 16px 14px 34px;display:flex;flex-direct
       <details>
         <summary>Geen melding ontvangen?</summary>
         <ul>
-          <li>iPhone: ga naar <b>Instellingen → Meldingen → Herinneringen</b> (of <b>Agenda</b>) en zet <b>Sta meldingen toe</b> aan.</li>
+          <li>iPhone: ga naar <b>Instellingen → Meldingen → Herinneringen</b> (of <b>Agenda</b>). Zet <b>Sta meldingen toe</b> aan en vink <b>Toegangsscherm</b>, <b>Berichtencentrum</b> en <b>Strepen</b> aan.</li>
+          <li>Staat er een maantje of ander Focus-icoon bovenin je scherm? Dan houdt <b>Niet storen</b> of een <b>Focus</b> meldingen tegen. Zet de Focus uit of sta Herinneringen toe.</li>
+          <li>iPhone: kijk bij <b>Instellingen → Meldingen → Geplande samenvatting</b>. Staat Herinneringen daarin, haal het er dan uit. Anders komen meldingen pas later, allemaal tegelijk.</li>
+          <li>Controleer of je herinnering op <b>Herhaal: Dagelijks</b> staat. Anders krijg je maar één keer een melding.</li>
           <li>Android: ga naar <b>Instellingen → Apps → Agenda → Meldingen</b> en zet ze aan.</li>
-          <li>Staat <b>Niet storen</b> of een Focus-modus aan? Dan komt de melding soms pas later.</li>
         </ul>
+      </details>
+
+      <details>
+        <summary>Kan de app vanzelf openen?</summary>
+        <p class="note" style="padding:0 14px">Helemaal vanzelf niet: een telefoon laat geen enkele app zichzelf openen. Wel kan het zo:</p>
+        <ul>
+          <li><b>Eén tik op de melding.</b> Zet het adres van de app bij <b>URL</b> in je herinnering. Tik je op de melding, dan opent de app.</li>
+          <li><b>iPhone, via Opdrachten.</b> Open <b>Opdrachten → Automatisering → +</b>. Kies <b>Tijdstip</b>, je tijd, <b>Dagelijks</b> en <b>Voer direct uit</b>. Voeg de actie <b>Open URL's</b> toe met het adres van de app. Is je iPhone ontgrendeld, dan opent de app op dat tijdstip vanzelf. Anders krijg je een melding om op te tikken.</li>
+        </ul>
+        <p class="note" style="padding:0 14px 14px"><b>Let op (iPhone):</b> een link opent de app in <b>Safari</b>, niet in de app op je beginscherm. Die twee hebben elk hun <b>eigen opslag</b>: wat je in Safari invult, zie je niet in de app op je beginscherm, en andersom. Kies daarom één manier en blijf die gebruiken. Altijd via de link (dan heb je het icoon op je beginscherm niet nodig), of altijd via het icoon (laat dan de URL uit je herinnering weg).</p>
       </details>
       <div class="status" id="copyStatus" aria-live="polite"></div>
     </div>

@@ -1,23 +1,63 @@
-HOOFDPIJNDAGBOEK – installeren
+HOOFDPIJNDAGBOEK
 
-De app moet één keer online gezet worden. Daarna installeert iedereen hem
-op zijn telefoon en werkt hij ook zonder internet.
+Adres van de app: https://viezebadjasman.github.io/hoofdpijndagboek/
+Stuur dit adres naar iedereen die de app wil gebruiken. Een account is niet nodig.
 
-1. ONLINE ZETTEN (gratis, 2 minuten, geen programmeerkennis nodig)
-   - Pak deze zip uit op je computer.
-   - Ga naar https://app.netlify.com/drop en maak een gratis account.
-   - Sleep de uitgepakte map "hoofdpijn-app" naar de pagina.
-   - Je krijgt een adres, bijvoorbeeld https://iets-willekeurigs.netlify.app
-     Dit adres kun je delen met iedereen die de app wil gebruiken.
-
-2. INSTALLEREN OP DE TELEFOON
+1. INSTALLEREN OP DE TELEFOON
    iPhone:  open het adres in Safari > deelknop > "Zet op beginscherm".
    Android: open het adres in Chrome > menu (⋮) > "App installeren".
 
-3. DAGELIJKSE MELDING
-   Kies in de app een tijdstip en tik op "Zet in mijn agenda".
-   Voeg de afspraak toe aan je agenda. Je krijgt dan elke dag een melding.
+2. DAGELIJKSE MELDING
+   De app kan zelf geen meldingen sturen. Dat doet je Herinneringen- of
+   Agenda-app, ook als de app dicht is.
 
-GEGEVENS
+   iPhone, via Herinneringen (makkelijkst):
+   - Open Herinneringen > Nieuwe herinnering > typ "Hoofdpijndagboek invullen".
+   - Tik op (i), zet Datum en Tijd aan en kies je tijdstip.
+   - Kies bij Herhaal: Dagelijks. Tik op Gereed.
+
+   iPhone, via Agenda:
+   - Agenda > + > titel "Hoofdpijndagboek invullen", kies je tijdstip.
+   - Herhaal: Elke dag. Melding: Op tijdstip van activiteit. Voeg toe.
+
+   Android, via Google Agenda:
+   - Google Agenda > + > Afspraak > kies je tijdstip.
+   - "Wordt niet herhaald" > Elke dag. Melding op het tijdstip zelf. Opslaan.
+
+   Of tik in de app op "Zet in mijn agenda".
+
+3. GEEN MELDING ONTVANGEN?
+   - iPhone: Instellingen > Meldingen > Herinneringen (of Agenda).
+     Zet "Sta meldingen toe" aan en vink Toegangsscherm, Berichtencentrum
+     en Strepen aan.
+   - Focus of Niet storen aan (maantje bovenin)? Zet het uit of sta
+     Herinneringen toe.
+   - iPhone: Instellingen > Meldingen > Geplande samenvatting. Staat
+     Herinneringen daarin, haal het er dan uit.
+   - Staat je herinnering op "Herhaal: Dagelijks"? Anders komt hij maar één keer.
+   - Android: Instellingen > Apps > Agenda > Meldingen > aanzetten.
+
+4. KAN DE APP VANZELF OPENEN?
+   Helemaal vanzelf niet: een telefoon laat geen enkele app zichzelf openen.
+   Wel kan het zo:
+   - Eén tik op de melding: zet het adres van de app bij URL in je herinnering.
+   - iPhone, via Opdrachten: Automatisering > + > Tijdstip > kies je tijd,
+     Dagelijks, "Voer direct uit". Voeg de actie "Open URL's" toe met het
+     adres van de app. Is je iPhone ontgrendeld, dan opent de app vanzelf.
+     Anders krijg je een melding om op te tikken.
+
+   LET OP (iPhone): een link opent de app in Safari, niet in de app op je
+   beginscherm. Die twee hebben elk hun EIGEN opslag. Wat je in Safari
+   invult, zie je niet in de app op je beginscherm, en andersom.
+   Kies daarom één manier en blijf die gebruiken:
+   - altijd via de link (dan heb je het icoon op je beginscherm niet nodig), of
+   - altijd via het icoon (laat dan de URL uit je herinnering weg).
+
+5. GEGEVENS
    Alles blijft op de telefoon zelf. Niemand anders kan het zien, ook de
    maker van de app niet. Maak af en toe een back-up via "Back-up maken".
+
+6. ZELF EEN NIEUWE VERSIE ONLINE ZETTEN
+   Open de repository op github.com > Add file > Upload files > sleep de
+   nieuwe bestanden erin > Commit changes. Na 1 à 2 minuten is de website
+   bijgewerkt. Wie de app al heeft, krijgt de nieuwe versie vanzelf.
