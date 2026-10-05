@@ -1,5 +1,5 @@
 // Zorgt dat de app ook zonder internet opent
-const CACHE = "hoofdpijndagboek-v5";
+const CACHE = "hoofdpijndagboek-v6";
 const FILES = ["./", "index.html", "manifest.webmanifest", "icon-192.png", "icon-512.png", "apple-touch-icon.png"];
 
 self.addEventListener("install", e => {
